@@ -1,0 +1,42 @@
+/*Retro Style Card*/
+h2 {
+    text-align: center;
+}
+
+.cardHome {
+    width: 300px;
+    margin: 20px;
+    background: rgba(132, 169, 182, 0.885);
+    border: 3px solid #000;
+    border-radius: 0;
+    box-shadow: 15px 15px 0 -2.5px rgba(109, 124, 140, 0.723), 15px 15px 0 0 #000;
+} 
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #ffffff;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: all .5s ease;
+    margin: 5px;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: #070313;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #eeeeee
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(127, 20%, 92%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
